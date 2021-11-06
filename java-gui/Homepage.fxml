@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="-6.0" prefHeight="49.0" prefWidth="612.0" style="-fx-background-color: black;" />
+      <Button layoutX="534.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: #E63#FF2626E6D;" text="Login" textFill="#faf2f2" />
+      <Button layoutX="91.0" layoutY="11.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Contact Us" textFill="#f7f4f4" />
+      <Button layoutX="9.0" layoutY="11.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Home" textFill="#e9e7e7" />
+      <Text layoutX="35.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to AZ Pediatric Clinics" wrappingWidth="277.22900390625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="104.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for choosing AZ Paediatric Doctor’s Office.We provide paediatric health support to children from birth to 18 years of age with the highest quality. All checkups, routine health screenings and testing along with medical care for various illness are provided at our office.We love our patients in good health and would like to see them grow in beautiful human beings. We are dedicating people to help you in any health issues and even provide emergency health services. See you soon at our office.Thank you for choosing AZ Paediatric Doctor’s Office.We provide paediatric health support to children from birth to 18 years of age with the highest quality. All checkups, routine health screenings and testing along with medical care for various illness are provided at our office.We love our patients in good health and would like to see them grow in beautiful human beings. We are dedicating people to help you in any health issues and even provide emergency health services. See you soon at our office." wrappingWidth="537.22900390625">
+         <font>
+            <Font size="11.0" />
+         </font></Text>
+      <ImageView fitHeight="122.0" fitWidth="162.0" layoutX="420.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/IMG_4067-2.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="141.0" fitWidth="176.0" layoutX="35.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/98972a402130c4d76b0a3d654889e254.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

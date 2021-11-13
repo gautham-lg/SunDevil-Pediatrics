@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="-12.0" prefHeight="52.0" prefWidth="646.0" style="-fx-background-color: black;" />
+      <Button layoutX="152.0" layoutY="11.0" mnemonicParsing="false" style="-fx-background-color: black;" text="View Message" textFill="#f5eeee" />
+      <Button layoutX="70.0" layoutY="11.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Home" textFill="#f8f6f6" />
+      <Button layoutX="524.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: orange;" text="Logout" textFill="#fffafa" />
+      <Text layoutX="45.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient Name : " />
+      <Text layoutX="138.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zeus" />
+      <Text layoutX="45.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comments" />
+      <TextArea layoutX="45.0" layoutY="109.0" prefHeight="86.0" prefWidth="154.0" />
+      <Text layoutX="45.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prescription" />
+      <TextArea layoutX="45.0" layoutY="228.0" prefHeight="86.0" prefWidth="154.0" />
+      <Text layoutX="250.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight(Kg)" />
+      <Text layoutX="251.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Height(cm)" />
+      <Text layoutX="250.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Body Temperature(Celcius)" />
+      <Text layoutX="252.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allergy" />
+      <Text layoutX="253.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Health Symptoms" />
+      <Text layoutX="254.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blood Pressure" />
+      <Text layoutX="444.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View Medical History" />
+      <Text layoutX="446.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField disable="true" layoutX="250.0" layoutY="130.0" text="78" />
+      <TextField disable="true" layoutX="250.0" layoutY="170.0" text="185" />
+      <TextField disable="true" layoutX="251.0" layoutY="211.0" text="98" />
+      <TextField disable="true" layoutX="252.0" layoutY="251.0" text="#entered alergies by nurse" />
+      <TextField disable="true" layoutX="252.0" layoutY="292.0" text="#eneterd symptoms by nurse" />
+      <TextField disable="true" layoutX="254.0" layoutY="334.0" text="120/30" />
+      <Button layoutX="43.0" layoutY="357.0" mnemonicParsing="false" text="Submit" />
+      <TextArea disable="true" layoutX="438.0" layoutY="141.0" prefHeight="86.0" prefWidth="150.0" text="date and medical history" />
+      <TextArea disable="true" layoutX="438.0" layoutY="259.0" prefHeight="86.0" prefWidth="150.0" text="date and medical history 1" />
+      <TextField layoutX="45.0" layoutY="321.0" promptText="can ennter new pharmacy details as well" text="Pharmacy details" />
+   </children>
+</AnchorPane>

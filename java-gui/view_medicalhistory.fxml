@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="-12.0" layoutY="1.0" prefHeight="52.0" prefWidth="646.0" style="-fx-background-color: black;" />
+      <Button layoutX="162.0" layoutY="12.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Message" textFill="#f5eeee" />
+      <Button layoutX="70.0" layoutY="12.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Home" textFill="#f8f6f6" />
+      <Button layoutX="524.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: orange;" text="Logout" textFill="#fffafa" />
+      <TextField layoutX="96.0" layoutY="138.0" prefHeight="27.0" prefWidth="288.0" promptText="all the medical hisotry to be printed" />
+   </children>
+</AnchorPane>

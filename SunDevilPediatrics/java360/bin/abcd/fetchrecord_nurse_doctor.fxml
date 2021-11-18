@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.actionFetchPatient">
+   <children>
+      <DatePicker fx:id="dob" layoutX="26.0" layoutY="243.0" prefHeight="36.0" prefWidth="246.0" promptText="Date of birth" />
+      <AnchorPane layoutX="41.0" layoutY="7.0" prefHeight="36.0" prefWidth="542.0" />
+      <Button layoutX="500.0" layoutY="5.0" mnemonicParsing="false" style="-fx-background-color: #E63#FF2626E6D;" text="Logout" textFill="#f7f4f4" />
+      <Button layoutX="47.0" layoutY="3.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Home">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.06666666666666667" proportional="false">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#dce5da" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Text layoutX="28.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search Patient record" wrappingWidth="143.9830722808838">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button layoutX="28.0" layoutY="323.0" mnemonicParsing="false" onAction="#search" text="Search" />
+      <TextField fx:id="firstname" layoutX="28.0" layoutY="112.0" prefHeight="23.0" prefWidth="240.0" promptText="First  Name" />
+      <TextField fx:id="lastname" layoutX="28.0" layoutY="173.0" prefHeight="36.0" prefWidth="240.0" promptText="Last Name" />
+      <Button layoutX="158.0" layoutY="3.0" mnemonicParsing="false" style="-fx-background-color: black;" text="About Us">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.2" proportional="false">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#dce5da" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button layoutX="320.0" layoutY="4.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Contact " textFill="#e1d4d4" />
+   </children>
+</AnchorPane>

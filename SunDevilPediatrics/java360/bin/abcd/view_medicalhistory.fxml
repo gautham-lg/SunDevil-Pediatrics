@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.actionViewMedical">
+   <children>
+      <Label layoutX="-12.0" layoutY="53.0" prefHeight="0.0" prefWidth="612.0" style="-fx-background-color: black;" />
+      <Button layoutX="95.0" layoutY="14.0" mnemonicParsing="false" onAction="#message" style="-fx-background-color: black;" text="Message" textFill="#f5eeee" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#home" style="-fx-background-color: black;" text="Home" textFill="#f8f6f6" />
+      <Button layoutX="524.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" style="-fx-background-color: orange;" text="Logout" textFill="#fffafa" />
+      <TableView fx:id="table" layoutX="-2.0" layoutY="54.0" prefHeight="348.0" prefWidth="655.0">
+        <columns>
+          <TableColumn fx:id="comments" editable="false" prefWidth="159.0" text="Comments" />
+          <TableColumn fx:id="prescription" editable="false" prefWidth="133.0" text="Prescription" />
+            <TableColumn fx:id="allergy" editable="false" prefWidth="104.0" text="Allergy" />
+            <TableColumn fx:id="symptoms" editable="false" prefWidth="130.0" text="Symptoms" />
+            <TableColumn fx:id="docName" editable="false" prefWidth="128.0" text="Doc Name" />
+        </columns>
+      </TableView>
+      <Label fx:id="patientName" layoutX="181.0" layoutY="18.0" prefHeight="17.0" prefWidth="75.0" text="Patient Name" />
+      <Label fx:id="name" layoutX="294.0" layoutY="18.0" prefHeight="17.0" prefWidth="75.0" text="Name" />
+      <Button layoutX="404.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: black;" text="Back" textFill="#f5eeee" />
+   </children>
+</AnchorPane>

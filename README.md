@@ -76,3 +76,4 @@ insert  into `nurseinfo`(`First_name`,`Last_name`,`NurseID`,`Password`) values (
 insert  into `nurseinfo`(`First_name`,`Last_name`,`NurseID`,`Password`) values ('Jennifer','Lee',3001,'123');
 insert  into `nurseinfo`(`First_name`,`Last_name`,`NurseID`,`Password`) values ('Nina','Ramirez',1009,'123');
 
+Thank You
